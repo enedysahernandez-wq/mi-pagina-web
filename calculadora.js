@@ -20,13 +20,13 @@ function realizarOperacion(num1, num2, operacion) {
 }
 
 alert(
-    "Bienvenido a la calculadora básica en JavaScript.\n" +
+    "Bienvenido a esta calculadora basica\n" +
     "Escribe 'suma', 'resta', 'multiplicacion', 'division' o 'salir' para terminar."
 );
 
 while (true) {
     operacion = prompt(
-        "¿Qué operación deseas realizar?\n" +
+        "¿Qué operación quieres realizar?\n" +
         "Opciones: suma, resta, multiplicacion, division o salir"
     );
 
@@ -38,7 +38,7 @@ while (true) {
     operacion = operacion.toLowerCase().trim();
 
     if (operacion === "salir") {
-        alert("Gracias por usar la calculadora. ¡Hasta pronto!");
+        alert("Gracias por usar la calculadora.");
         break;
     }
     if (
